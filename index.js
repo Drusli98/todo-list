@@ -17,6 +17,7 @@ function saveTasks() {
   localStorage.setItem('tasks', JSON.stringify(tasks));
 }
 
+dispatchEvent(awd)
 
 // Функция для восстановления задач из localStorage
 function loadTasks() {

@@ -11,7 +11,7 @@
   display: flex; /* Гибкий контейнер для выравнивания */
   justify-content: flex-start; /* Текст слева */
   align-items: center; /* Выравнивание по вертикальному центру */
-  border-bottom: 1px solid #ccc; /* Лёгкая линия под каждой задачей */awpmi[daniopwduhoawhudawhupodhuopawdhpuoawhuopduoahpwdhuopawhuopdawhuop]
+  border-bottom: 1px solid #ccc; /* Лёгкая линия под каждой задачей */
 }
 
 #task-list li span {
