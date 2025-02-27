@@ -1,0 +1,37 @@
+#task-list {
+  list-style-type: disc; /* Возвращаем точку как маркер списка */
+  padding-left: 20px; /* Добавляем отступ слева для маркера */
+  width: 300px;
+  max-width: 100%;
+}
+
+#task-list li {
+  list-style-type: disc;
+  padding: 8px;
+  display: flex; /* Гибкий контейнер для выравнивания */
+  justify-content: flex-start; /* Текст слева */
+  align-items: center; /* Выравнивание по вертикальному центру */
+  border-bottom: 1px solid #ccc; /* Лёгкая линия под каждой задачей */
+}
+
+#task-list li span {
+  margin-right: auto; /* Текст занимает всё доступное пространство и отодвигает кнопки вправо */
+  flex-grow: 1; /* Позволяет тексту растягиваться */
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+button {
+  padding: 5px 10px; /* Увеличиваем внутренние отступы кнопок для удобства клика */
+  margin-left: 5px; /* Отступ между кнопками */
+  cursor: pointer; /* Указатель мыши при наведении */
+  background-color: #f0f0f0; /* Цвет фона кнопки */
+  border: 1px solid #ccc; /* Граница кнопки */
+  border-radius: 3px; /* Скругление углов */
+}
+
+button:hover {
+  background-color: #e0e0e0; /* Цвет при наведении */
+}
